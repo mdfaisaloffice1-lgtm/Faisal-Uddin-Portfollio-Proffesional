@@ -6,14 +6,11 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I'm a passionate web developer and designer based in Bangladesh, specializing
-          in building clean, high-performing websites and Shopify stores that actually
-          convert. Over the years I've worked with clients across BD and the US — from
-          early-stage startups to growing e-commerce brands — turning ideas into polished
-          digital experiences. My work sits at the intersection of development and design:
-          I care deeply about how things look, but even more about how they work.
-          Whether it's a custom Shopify theme, a responsive UI, or a full web build,
-          I bring both technical precision and a designer's eye to every project.
+          I am currently co-founder of CallHQ.ai, building real-time voice AI for
+          businesses. I am a technologist at heart with strong business judgment—
+          I enjoy going from product strategy to hands-on engineering. My background
+          spans leadership at Adobe, founding Broki and CallHQ, and shipping
+          full-stack products end to end.
         </p>
       </div>
     </div>

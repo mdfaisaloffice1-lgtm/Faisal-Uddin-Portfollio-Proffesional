@@ -12,68 +12,63 @@ const Career = () => {
           <div className="career-timeline">
             <div className="career-dot"></div>
           </div>
-
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Web Developer</h4>
-                <h5>Manus AI · Remote</h5>
+                <h4>Co-Founder</h4>
+                <h5>CallHQ.ai</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Working as a developer at Manus AI since January 2026, contributing
-              to AI-driven web products while simultaneously taking on remote
-              freelance projects across multiple international platforms.
+              Building CallHQ.ai, a voice AI platform for
+              automating customer calls, support, and conversions.
             </p>
           </div>
-
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Main Developer</h4>
-                <h5>Belarc · USA (Remote)</h5>
+                <h4>Adobe</h4>
+                <h5>6+ years · Noida</h5>
               </div>
-              <h3>2024</h3>
+              <h3>2017–24</h3>
             </div>
             <p>
-              Oct 2024 – Dec 2025. Served as the primary developer for this
-              US-based company on a part-time remote contract, handling
-              end-to-end development responsibilities alongside freelance
-              Shopify work on LinkedIn, Upwork, and Fiverr.
+              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
+              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
+              Feb 2021): internationalization, globalization, and localization for
+              Adobe Technical Communication Suite; functional and linguistic testing
+              strategy; in-house tooling; collaboration with product and engineering
+              for high-quality localized releases.
             </p>
           </div>
-
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Web Developer</h4>
-                <h5>AR IT Solution</h5>
+                <h4>Consultant</h4>
+                <h5>Genpact Headstrong </h5>
               </div>
-              <h3>2023–24</h3>
+              <h3>2016–17</h3>
             </div>
             <p>
-              Jul 2023 – Aug 2024. Developed and maintained client websites,
-              worked on UI/UX improvements, and delivered Shopify-based
-              solutions for local and international clients.
+              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
+              by the UI; deployment support across environments; NUnit tests and
+              coverage; bug fixes from QA and users; database work.
             </p>
           </div>
-
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Junior Developer</h4>
-                <h5>BD IT Solutions</h5>
+                <h4>Sf Engineer</h4>
+                <h5>Infogain</h5>
               </div>
-              <h3>2021–23</h3>
+              <h3>2013-16</h3>
             </div>
             <p>
-              2021 – Jun 2023. Began my professional journey here, building
-              foundational skills in web development, working on real client
-              projects, and growing into a well-rounded developer.
+              Software engineering across enterprise projects, contributing to
+              design, development, and delivery of business applications.
             </p>
           </div>
-
         </div>
       </div>
     </div>

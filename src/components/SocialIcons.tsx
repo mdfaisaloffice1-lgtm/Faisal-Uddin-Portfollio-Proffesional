@@ -2,11 +2,10 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
+  FaYoutube,
 } from "react-icons/fa6";
-import { SiFiverr } from "react-icons/si";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
-import { MdEmail } from "react-icons/md";
 import { useEffect } from "react";
 import HoverLinks from "./HoverLinks";
 
@@ -27,14 +26,17 @@ const SocialIcons = () => {
       const updatePosition = () => {
         currentX += (mouseX - currentX) * 0.1;
         currentY += (mouseY - currentY) * 0.1;
+
         link.style.setProperty("--siLeft", `${currentX}px`);
         link.style.setProperty("--siTop", `${currentY}px`);
+
         requestAnimationFrame(updatePosition);
       };
 
       const onMouseMove = (e: MouseEvent) => {
         const x = e.clientX - rect.left;
         const y = e.clientY - rect.top;
+
         if (x < 40 && x > 10 && y < 40 && y > 5) {
           mouseX = x;
           mouseY = y;
@@ -45,6 +47,7 @@ const SocialIcons = () => {
       };
 
       document.addEventListener("mousemove", onMouseMove);
+
       updatePosition();
 
       return () => {
@@ -57,34 +60,45 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/mdfaisaloffice1-lgtm" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/akashrmalhotra"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/faisal-uddin-95083633b/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.linkedin.com/in/akashrmalhotra/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/faisal_uddin10" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.youtube.com/@Leftbraincoder"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FaYoutube />
+          </a>
+        </span>
+        <span>
+          <a
+            href="https://www.instagram.com/leftbraincoder/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaInstagram />
-          </a>
-        </span>
-        <span>
-          <a href="https://www.fiverr.com/fai_sal_uddin" target="_blank" rel="noreferrer">
-            <SiFiverr />
-          </a>
-        </span>
-        <span>
-          <a href="mailto:uddinfaisal155@gmail.com">
-            <MdEmail />
           </a>
         </span>
       </div>
       <a
         className="resume-button"
-        href="/Faisal_Uddin_Resume.pdf"
+        href="/Akash_Malhotra.pdf"
         target="_blank"
         rel="noreferrer"
       >
