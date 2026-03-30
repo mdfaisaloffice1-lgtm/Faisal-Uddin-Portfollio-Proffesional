@@ -11,27 +11,45 @@ const Contact = () => {
             <h4>Connect</h4>
             <p>
               <a
-                href="https://www.linkedin.com/in/akashrmalhotra/"
+                href="https://www.linkedin.com/in/faisal-uddin-95083633b/"
                 target="_blank"
                 rel="noreferrer"
                 data-cursor="disable"
               >
-                LinkedIn — akashrmalhotra
+                LinkedIn — faisal-uddin
+              </a>
+            </p>
+            <p>
+              <a
+                href="mailto:uddinfaisal155@gmail.com"
+                data-cursor="disable"
+              >
+                uddinfaisal155@gmail.com
               </a>
             </p>
             <h4>Education</h4>
             <p>
-              PGPWE (MBA), Indian Institute of Management, Lucknow — 2021–2023
+              HSC (Humanities), Laur Fatehpur Barrister Zakir Ahammad College,
+              Cumilla Board — 2022–2024 · GPA 5.00
             </p>
             <p>
-              B.Tech Computer Science, Manav Rachna Educational Institutions —
-              2009–2013
+              SSC (Science), Nabinagar Government Pilot High School,
+              Cumilla Board — 2020–2022 · GPA 5.00
+            </p>
+            <p>
+              Responsive Web Design Certification, freeCodeCamp — 2022
+            </p>
+            <p>
+              JavaScript Algorithms &amp; Data Structures, freeCodeCamp — 2023
+            </p>
+            <p>
+              Shopify Partner &amp; Theme Development, Shopify Learn — 2023
             </p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com/akashrmalhotra"
+              href="https://github.com/mdfaisaloffice1-lgtm"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -40,7 +58,7 @@ const Contact = () => {
               GitHub <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com/in/akashrmalhotra/"
+              href="https://www.linkedin.com/in/faisal-uddin-95083633b/"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -49,16 +67,7 @@ const Contact = () => {
               LinkedIn <MdArrowOutward />
             </a>
             <a
-              href="https://www.youtube.com/@Leftbraincoder"
-              target="_blank"
-              rel="noreferrer"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              YouTube <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/leftbraincoder/"
+              href="https://www.instagram.com/faisal_uddin10"
               target="_blank"
               rel="noreferrer"
               data-cursor="disable"
@@ -66,10 +75,26 @@ const Contact = () => {
             >
               Instagram <MdArrowOutward />
             </a>
+            <a
+              href="https://www.fiverr.com/fai_sal_uddin"
+              target="_blank"
+              rel="noreferrer"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Fiverr <MdArrowOutward />
+            </a>
+            <a
+              href="mailto:uddinfaisal155@gmail.com"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              Email <MdArrowOutward />
+            </a>
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Akash Malhotra</span>
+              Designed and Developed <br /> by <span>Faisal Uddin</span>
             </h2>
             <h5>
               <MdCopyright /> 2026
