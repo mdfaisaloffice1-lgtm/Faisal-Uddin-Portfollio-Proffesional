@@ -11,6 +11,7 @@ interface Props {
 const WorkImage = (props: Props) => {
   const [isVideo, setIsVideo] = useState(false);
   const [video, setVideo] = useState("");
+
   const handleMouseEnter = async () => {
     if (props.video) {
       setIsVideo(true);
@@ -23,20 +24,34 @@ const WorkImage = (props: Props) => {
 
   return (
     <div className="work-image">
-      <a
+      
         className="work-image-in"
-        href={props.link}
+        href={props.link === "#" ? undefined : props.link}
         onMouseEnter={handleMouseEnter}
         onMouseLeave={() => setIsVideo(false)}
         target="_blank"
-        data-cursor={"disable"}
+        data-cursor="disable"
+        style={{ display: "block", width: "100%" }}
       >
-        {props.link && (
+        {props.link && props.link !== "#" && (
           <div className="work-link">
             <MdArrowOutward />
           </div>
         )}
-        <img src={props.image} alt={props.alt} />
+        <img
+          src={props.image}
+          alt={props.alt}
+          style={{
+            width: "100%",
+            height: "380px",
+            objectFit: "cover",
+            borderRadius: "8px",
+            display: "block",
+          }}
+          onError={(e) => {
+            (e.target as HTMLImageElement).src = "/images/placeholder.webp";
+          }}
+        />
         {isVideo && <video src={video} autoPlay muted playsInline loop></video>}
       </a>
     </div>
